@@ -14,6 +14,7 @@
 		3E7176DE28FCD53A009B755E /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7176DD28FCD53A009B755E /* FinalProjectTests.swift */; };
 		3E7176E828FCD53A009B755E /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7176E728FCD53A009B755E /* FinalProjectUITests.swift */; };
 		3E7176EA28FCD53A009B755E /* FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7176E928FCD53A009B755E /* FinalProjectUITestsLaunchTests.swift */; };
+		3EADD3E929187ED6002CD488 /* New File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADD3E829187ED6002CD488 /* New File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3E7176E328FCD53A009B755E /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7176E728FCD53A009B755E /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
 		3E7176E928FCD53A009B755E /* FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EADD3E829187ED6002CD488 /* New File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New File.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				3E7176CE28FCD538009B755E /* ContentView.swift */,
 				3E7176D028FCD53A009B755E /* Assets.xcassets */,
 				3E7176D228FCD53A009B755E /* Preview Content */,
+				3EADD3E829187ED6002CD488 /* New File.swift */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				3E7176CF28FCD538009B755E /* ContentView.swift in Sources */,
 				3E7176CD28FCD538009B755E /* FinalProjectApp.swift in Sources */,
+				3EADD3E929187ED6002CD488 /* New File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
