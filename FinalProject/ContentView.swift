@@ -50,6 +50,28 @@ struct ContentView: View {
                 Button("Create Character"){
                     gameState.characterName = characterName;
                     gameState.characterClass = selectedClass.rawValue.capitalized;
+                    if (selectedClass == Class.Warrior) {
+                        gameState.characterStr = Int.random(in: 8...15);
+                        gameState.characterAgi = Int.random(in: 3...7);
+                        gameState.characterInt = Int.random(in: 1...5);
+                        gameState.characterHealth = Int.random(in: 10...20);
+                        gameState.characterCurrentHealth = gameState.characterHealth;
+                    }
+                    if (selectedClass == Class.Rogue) {
+                        gameState.characterStr = Int.random(in: 1...7);
+                        gameState.characterAgi = Int.random(in: 8...15);
+                        gameState.characterInt = Int.random(in: 4...10);
+                        gameState.characterHealth = Int.random(in: 5...10);
+                        gameState.characterCurrentHealth = gameState.characterHealth;
+                    }
+                    if (selectedClass == Class.Mage) {
+                        gameState.characterStr = Int.random(in: 1...5);
+                        gameState.characterAgi = Int.random(in: 4...9);
+                        gameState.characterInt = Int.random(in: 10...21);
+                        gameState.characterHealth = Int.random(in: 2...8);
+                        gameState.characterCurrentHealth = gameState.characterHealth;
+                    }
+                    
                     gameState.viewState = 1;
                 }.foregroundColor(.indigo)
             }
