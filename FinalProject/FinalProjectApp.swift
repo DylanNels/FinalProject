@@ -30,10 +30,11 @@ struct FinalProjectApp: App {
         WindowGroup {
             if (gameState.viewState == 0) {
                 ContentView().environmentObject(gameState);
-            } else {
+            } else if (gameState.viewState == 1) {
                 ProfileView().environmentObject(gameState);
+            } else if (gameState.viewState == 2) {
+                PlayView().environmentObject(gameState);
             }
-            
         }
     }
 }

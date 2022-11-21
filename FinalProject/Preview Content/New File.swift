@@ -31,17 +31,18 @@ struct ProfileView: View {
                 Text("Character Health: \(gameState.characterCurrentHealth!)");
             }
             
-            Text("Don't like your your profile?");
-            
             HStack {
-                Button("Return too Chargen"){
+                Text("Don't like your your profile?");
+                Button("Return too Chargen."){
                     gameState.viewState = 0;
                 }
+                
+                Text("Otherwise...");
+                Button("Venture on Forth."){
+                        gameState.viewState = 2;
+                    }
+                
             }
-            
-            Text("Otherwise...");
-            
-            
             
         }
     }
