@@ -16,11 +16,23 @@ struct ProfileView: View {
             Text("This Art Thou")
             HStack {
                 Text("Character Name: \(gameState.characterName!)");
+            }
+            HStack{
                 Text("Character Class: \(gameState.characterClass!)");
+            }
+            HStack {
                 Text("Character Strength: \(gameState.characterStr!)");
+            }
+            HStack{
                 Text("Character Agility: \(gameState.characterAgi!)");
-                Text("Character Strength: \(gameState.characterInt!)");
+            }
+            HStack{
+                Text("Character Intelligence: \(gameState.characterInt!)");
+            }
+            HStack{
                 Text("Character Max HP: \(gameState.characterHealth!)");
+            }
+            HStack{
                 Text("Character Current HP: \(gameState.characterCurrentHealth!)");
             }
             HStack {
