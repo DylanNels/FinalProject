@@ -29,7 +29,7 @@ struct ContentView: View {
         VStack {
             HStack{
                 Image("dungeonentrance").resizable().frame(width: 64, height: 64)
-                Text("CYOA Adventure").font(.largeTitle).bold();
+                Text("Dungeon Run").font(.largeTitle).bold();
             }.frame(minWidth: 64, idealWidth: 64, maxWidth: .infinity, minHeight: 64, idealHeight: 64, maxHeight: 64, alignment: .topLeading).background(Color.indigo);
             CustomDivider(color:.indigo, height: 5);
             

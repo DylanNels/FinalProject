@@ -27,7 +27,7 @@ let story = Story(pages: [
         
         """,
         choices: [
-            Choice(text: "Run away!", destination: 1),
+            Choice(text: "Run away!", destination: 0),
             Choice(text: "Attack it!", destination: 2),
             Choice(text: "Try going around?", destination: 3),
         ]
@@ -47,7 +47,7 @@ let story = Story(pages: [
         """,
         choices: [
             Choice(text: "Dodge and weave, try and outlast it!", destination: 4),
-            Choice(text: "Meet it's attacks head on!", destination: 9),
+            Choice(text: "Meet it's attacks head on!", destination: 10),
         ]
     ),
     StoryPage( // 3
@@ -62,7 +62,7 @@ let story = Story(pages: [
         
         """,
         choices: [
-            Choice(text: "Go back...", destination: 1),
+            Choice(text: "Go back...", destination: 0),
             Choice(text: "Persit.", destination: 5),
         ]
     ),
@@ -101,7 +101,7 @@ let story = Story(pages: [
         """,
         choices: [
             Choice(text: "Brute force it!", destination: 6),
-            Choice(text: "Take it nice and slow...", destination: 9),
+            Choice(text: "Take it nice and slow...", destination: 8),
         ]
     ),
     StoryPage( // 6
@@ -118,51 +118,69 @@ let story = Story(pages: [
         
         """,
         choices: [
-            Choice(text: "Put it on, it'll be fine, right...?", destination: 7),
+            Choice(text: "Put it on, it'll be fine, right...?", destination: 9),
             Choice(text: "Strange chest helmet. Store it away, not on the head.", destination: 7),
         ]
     ),
     StoryPage( // 7
         """
-        PLACEHOLDER.
+        You store away said helmet in a backpack you brough with for such an occasion, and you continue to venture on...
+        
+        Though, what else is down there has yet to be seen.
+        
+        END OF DEMO
         
         """,
         choices: [
-            Choice(text: "---", destination: 1),
-            Choice(text: "---", destination: 1),
-            Choice(text: "---", destination: 2),
+            Choice(text: "Try Another Path?", destination: 0),
         ]
     ),
     StoryPage( // 8
         """
-        PLACEHOLDER.
+        As you sit there, fiddling with the lock on the old chest, it draws your focus just enough that you don't notice the sounds of feet against the cold stone floor...
         
+        Not until it's the last thing you hear before something smashes you over the head, and you get knocked out cold.
+        
+        You aren't to sure if it was another monster who did it, or even another dungeon crawler...but the point is, you're out.
+        
+        Your Dungoen Run is over.
         """,
         choices: [
-            Choice(text: "---", destination: 1),
-            Choice(text: "---", destination: 1),
-            Choice(text: "---", destination: 2),
-        ]
+            Choice(text: "Try Again.", destination: 0),
+            ]
     ),
     StoryPage( // 9
         """
-        PLACEHOLDER.
+        You put the helmet over your head, and set it on snuggly...and then you instantly regret it, as you sneeze and a miniture dust explosion wafts into the air.
+        
+        Other then that, though? It seems fine, shockingly enough.
+        
+        Questioning your sense of self preservation, you continue on further into the dungeon...
+        
+        But that's a story for another time.
+        
+        END OF DEMO.
         
         """,
         choices: [
-            Choice(text: "---", destination: 1),
-            Choice(text: "---", destination: 1),
-            Choice(text: "---", destination: 2),
+            Choice(text: "Try Another Route?", destination: 0),
         ]
     ),
     StoryPage( // 10
         """
-        GAME OVER
-        This is the end, it would appear...your Dungeon Run is over.
+        You decided to face the monster head on!
+        
+        Unfortunately, you underestimated the sharpness of its claws, and the thing tears through metal, cloth and flesh like a knife through butter.
+        
+        You manage to ward off the beast, forcing it down with a few more blows of your own...but not before taking a few solid hits of your own.
+        
+        You don't have much longer, it would appear. As soon as your wounds register to your senses, you vision darkens, and you think no more.
+        
+        Your Dungeon Run is over.
         
         """,
         choices: [
-            Choice(text: "Try Again.", destination: 1),
+            Choice(text: "Try Again.", destination: 0),
         ]
     ),
-)
+])
